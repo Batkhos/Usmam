@@ -1,0 +1,71 @@
+
+.regi-form{
+    margin: 1rem 10rem;
+    color: #000000 ;
+    padding-bottom: 2rem;
+    background:#808080b0;
+}
+
+.regi-form form{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+} 
+.regi-form label{
+    font-size: 18px;
+    font-weight:600;
+}
+
+.regi-form input{
+    height: 2.5rem;
+    padding: 0 .5rem;
+    margin-bottom: 1rem;
+    border-radius: 1.3rem;
+    border:  2px solid black;
+}
+
+
+.regi-form #sub{
+    display: inline;
+    height : 38px;
+    width: 120px;
+    text-align:center;
+    border-radius : 1rem;
+    margin-bottom:2px;
+    background : grey;
+    font-weight:700;
+    margin-left:9rem;
+
+}
+.regi-form h5{
+        margin-bottom:0.5rem;
+        margin-left: 45%;
+}
+.regi-form #reg{
+    display: inline;
+    height:38px;
+    width:230px;
+    border-radius:1rem;
+    font-weight:700;
+    background : #563939;
+    margin-left: 40%;
+
+
+}
+
+
+@media screen and (max-width:769px) {
+    .regi-form{
+        margin: 4rem 2rem;
+    }
+    .regi-form form{
+        padding-top: 2rem;
+        width: 90%;
+    }
+    .regi-form #sub{
+        margin-left:10rem;
+
+    }
+}

@@ -1,0 +1,72 @@
+.logo-exp img{
+    width: 500px;
+    padding-left: 30%;
+}
+.logo-exp h3{
+    text-align: center;
+    align-items: center;
+}
+
+.destination{
+    margin: 4rem 6rem;
+}
+
+.destination h1{
+    font-size: 3rem;
+}
+
+.first-des{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-top: 10rem;
+    width: 80%;
+}
+.des-text{
+    width: 50%;
+    text-align: start;
+    font-size: 1.1rem;
+    padding-left:1rem;
+}
+.des-text h2{
+    color: red;
+}
+
+.image{
+    position: relative;
+    width: 38%;
+    display: flex;
+    justify-content: space-between;
+    z-index: -99;
+}
+.image img{
+    width: 62%;
+    height: 360px;
+    object-fit: cover;
+    padding-right: 40px;
+    box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+
+.image img:nth-child(2){
+    position: absolute;
+    top: -24%;
+    right: 0;
+    margin-right: -140px;
+    border-radius: 16px;
+}
+.bus{
+    padding-top: 3rem;
+    padding-left: 2.5rem;
+    width: 60%;
+}
+.bus p{
+    text-align: center;
+    font-weight: 600;
+    color: red;
+    text-decoration:underline white;
+}
+.bus img{
+    position:relative;
+    width: 100%;
+    border-radius: 13px;
+}

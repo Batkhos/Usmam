@@ -1,0 +1,25 @@
+.second-nav{
+    padding-left: 40%;
+    height: 40px;
+    width: 60%;
+    background-color: #ffbfbf;
+    align-items: center;
+}
+.second-nav ul{
+    background-color: #747666;
+    border-radius: 30px;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    gap: 45px;
+    padding-right: 20px;
+
+}
+.second-nav li{
+    padding-top: 5px;
+}
+hr.nav2{
+    /* width: 30px; */
+    height: 2px;
+    background: black;
+}
